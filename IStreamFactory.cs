@@ -3,5 +3,5 @@
 public interface IStreamFactory
 {
     Stream GetInputStream(Uri uri);
-    Stream GetOutputStream(Uri uri);
+    Stream GetOutputStream(Uri uri, FileMode mode = FileMode.Create);
 }
