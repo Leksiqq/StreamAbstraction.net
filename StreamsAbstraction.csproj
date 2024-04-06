@@ -10,14 +10,12 @@
     <Title>$(AssemblyName)</Title>
     <Authors>leksiq</Authors>
     <Copyright>Алексей Юрьевич Захаров &lt;leksi@leksi.net&gt;, 2024</Copyright>
-    <PackageProjectUrl>https://github.com/Leksiqq/StreamAbstraction.net/wiki</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/Leksiqq/StreamAbstraction.net</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Leksiqq/StreamsAbstraction.net</RepositoryUrl>
     <IsPackable>true</IsPackable>
     <Version>2.0.1</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>microservices stream</PackageTags>
-    <Description></Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
   <Target Name="CopyPackage" AfterTargets="Pack" Condition="'$(Configuration)'=='Release'">
